@@ -12,7 +12,7 @@
         <developerConnection>scm:git:git@github.com:sebastianacevedoc/consumerBanking.git</developerConnection>
       <tag>consumerBanking-1.0</tag>
   </scm>
-  
+   
     <build>
         <plugins>
             <plugin>
