@@ -13,7 +13,6 @@
       <tag>consumerBanking-1.0</tag>
   </scm>
   
-  
     <build>
         <plugins>
             <plugin>
