@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.companyname.bank.AppTest
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
-=======
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
->>>>>>> 449b47512ed2950429d0986f63d582f3c80f715f
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
