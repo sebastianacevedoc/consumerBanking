@@ -3,9 +3,23 @@
     <groupId>com.companyname.bank</groupId>
     <artifactId>consumerBanking</artifactId>
     <packaging>jar</packaging>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <name>consumerBanking</name>
     <url>http://maven.apache.org</url>
+    
+    <distributionManagement>
+        <repository>
+            <id>internal</id>
+            <name>Archiva Managed Internal Repository</name>
+            <url>http://localhost:8080/repository/internal/</url>
+        </repository> 
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Archiva Managed Snapshot Repository</name>
+            <url>http://localhost:8080/repository/snapshots/</url>
+        </snapshotRepository> 
+    </distributionManagement>
+    
     <scm>
         <url>https://github.com/sebastianacevedoc/consumerBanking</url>
         <connection>scm:git:git://github.com/sebastianacevedoc/consumerBanking.git</connection>
